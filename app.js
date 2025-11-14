@@ -21,7 +21,8 @@ function displayUsers(usersList) {
       <p><strong>Phone:</strong> ${user.phone}</p>
       <p><strong>Website:</strong> 
         <a href="http://${user.website}" target="_blank">${user.website}</a>
-      </p>`;
+      </p>
+    `;
     usersContainer.appendChild(card);
   });
 }
